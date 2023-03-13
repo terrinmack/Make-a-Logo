@@ -53,6 +53,6 @@ inquirer.prompt([
     
 
 
-    fs.writeFileSync("./examples/logo.svg", newShape.HTML())
+    fs.writeFileSync("./examples/logo.svg", HTML())
     });
 
