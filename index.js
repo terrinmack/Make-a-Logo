@@ -52,7 +52,7 @@ inquirer.prompt([
     
     
 
-    
-    fs.writeFileSync("./examples/logo.svg", newShape.getHTML())
+
+    fs.writeFileSync("./examples/logo.svg", newShape.HTML())
     });
 
