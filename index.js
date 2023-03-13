@@ -20,9 +20,9 @@
 
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateLogo = require('./lib/generateLogo');
+const {Circle, Square, Triangle} = require('./lib/shapes');
 
-inquirer.createPromptModule([
+inquirer.prompt([
     {
         type: 'input',
         name: 'characters',
@@ -34,7 +34,7 @@ inquirer.createPromptModule([
         message: 'Please enter the color you would like your characters to be.',
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'shape',
         message: 'Please select a shape for you logo.',
         choices: ['circle', 'square', 'triangle',]
@@ -45,3 +45,14 @@ inquirer.createPromptModule([
         message: 'Please enter the color you would like your shape to be.',
     },
 ])
+
+
+.then((data) => {
+    const {characters, textColor, shape, shapeColor} = data;
+    
+    
+
+    
+    fs.writeFileSync("./examples/logo.svg", newShape.getHTML())
+    });
+
