@@ -46,13 +46,21 @@ inquirer.prompt([
     },
 ])
 
-
 .then((data) => {
     const {characters, textColor, shape, shapeColor} = data;
     
+    var svgInstance;
     
-
-
-    fs.writeFileSync("./examples/logo.svg", HTML())
+    switch (shape){
+        case "circle":
+            svgInstance = new Circle(shapeColor, textColor, characters);
+        case "square":
+            svgInstance = new Square(shapeColor, textColor, characters);
+        case "triangle":
+            svgInstance = new Triangle(shapeColor, textColor, characters);   
+    }
+    
+    fs.writeFileSync('./examples/logo.svg', svgInstance.render());
     });
 
+    
