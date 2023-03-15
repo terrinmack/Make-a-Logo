@@ -2,7 +2,7 @@
 Module 10: A command line application that uses node.js prompts to generate an SVG logo via the user inputs.
 
 ## Installation
-1. Cloen the repository
+1. Clone the repository
 2. Install Node.js to your pc
 3. Within the command line/terminal, run npm install
 4. Follow the command line prompts after inputting node index.js 
