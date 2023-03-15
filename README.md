@@ -18,7 +18,7 @@ Module 10: A command line application that uses node.js prompts to generate an S
 
 ## Credits
 
-I would like to thank my ASKBCS learning assistant Marven for the great help when I was completely lost and [W3Schools](https://www.w3schools.com/?gclid=Cj0KCQjwtsCgBhDEARIsAE7RYh23GOF_0vlF06ht_LxkvbjxTPC0kmgQNPK6WKwqNRr6qHeXTrOtTVIaAsxREALw_wcB) for providing a very clear guide on how to use SVG shapes. 
+I would like to thank my ASKBCS learning assistant Marven and Faizan for the great help when I was completely lost and [W3Schools](https://www.w3schools.com/?gclid=Cj0KCQjwtsCgBhDEARIsAE7RYh23GOF_0vlF06ht_LxkvbjxTPC0kmgQNPK6WKwqNRr6qHeXTrOtTVIaAsxREALw_wcB) for providing a very clear guide on how to use SVG shapes. 
 
 ## Contact
 [Terri Mack](https://github.com/terrinmack?tab=repositories)
