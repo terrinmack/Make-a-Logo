@@ -12,9 +12,10 @@ Module 10: A command line application that uses node.js prompts to generate an S
 * After the user follows the command line prompts using Node.js, within the 'lib' folder, a logo.svg file will be generated, showing an image within the browser. A sample image will be shown below.
 * For future application, this can be modified to generate more complex SVG style logos and designs by altering the code for the shapes. Rather than having simple shapes, the text/characters can be integrated within the logo itself. 
 * Example of a sample SVG logo that can be created:
+
 ![Screenshot](./examples/sample-svg-logo.jpg)
 
-*Demonstration [Video of the application]()
+*Demonstration [Video of the application](https://watch.screencastify.com/v/iHMxbCRJLV5cILrvRGtB)
 
 ## Credits
 
