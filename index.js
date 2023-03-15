@@ -45,8 +45,10 @@ inquirer.prompt([
     switch (shape){
         case "circle":
             svgInstance = new Circle(shapeColor, textColor, characters);
+            break;
         case "square":
             svgInstance = new Square(shapeColor, textColor, characters);
+            break;
         case "triangle":
             svgInstance = new Triangle(shapeColor, textColor, characters);   
     }
